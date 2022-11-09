@@ -1,13 +1,21 @@
 {
-    "name": "vitaliss/hello-composer",
+    "name": "vitalis/hello-composer",
     "description": "A simple hello world composer package",
     "type": "library",
+    "require": {
+        "#": "1.0"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "Vitalis\\HelloComposer\\": "src/"
         }
     },
-    "minimum-stability": "beta",
-    "require": {}
+    "authors": [
+        {
+            "name": "Than Htike Aung",
+            "email": "nggthan@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
